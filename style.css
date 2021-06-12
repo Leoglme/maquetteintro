@@ -1,0 +1,555 @@
+/* importation fonts via le css */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url("https://use.typekit.net/ity7hed.css");
+
+
+/* GÉNÉRAL */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* header */
+#headerBg {
+    width:100%;
+    height: 183px;
+    background: url('assets/misc/grille.png');
+    margin-bottom: 10px;
+}
+#header {
+    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 3px;
+}
+#logo{
+    margin: 37px 0 0 365px;
+}
+.list h2 , .list li {
+    margin-left: 19px;
+    color: #7c7c83;
+    font-family: 'Oswald', sans-serif;
+}
+.list li {
+    font-size: 11px;
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.list h2{
+    font-size: 15px;
+    font-weight: unset;
+    text-transform: uppercase;
+}
+
+.list-group{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 38%;
+    top: 5%;
+}
+
+.divider{
+    width: 99px;
+    height: 5px;
+    margin: 7px 14px;
+}
+
+.orange {
+    background: #f76900;
+}
+
+.yellow{
+    background: #fcd04a;
+}
+
+.green{
+    background: #b9d482;
+}
+
+.blue{
+    background: #3d92c2;
+}
+
+.purple{
+    background: #c078d0;
+}
+
+
+/* section youtube */
+#section-youtube {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 455px;
+    width: 100%;
+}
+
+iframe.video{
+    width: 38%;
+    height: 86%;
+    border: none;
+}
+
+/* section séparation slogan */
+
+.tile {
+    width:100%;
+    height: 90px;
+    background: url('assets/misc/grille.png');
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.border {
+    border-bottom: 1px solid #f0f0f0;
+    border-top: 1px solid #f0f0f0;
+    margin: 3px;
+}
+
+h2.slogan-title{
+    color: #7c7c83;
+    font-size: 18px;
+    font-family: droid-serif, serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* section activités */
+#activities {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 470px;
+}
+
+.activities-title{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: #e77927;
+    font-size: 20px;
+    margin: 20px 0 0 14px;
+}
+
+.activities-label{
+    font-family: droid-serif, serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #b4b6b6;
+    font-size: 10px;
+}
+
+.continue{
+    font-size: 12px;
+}
+
+
+.activities-desc{
+    font-family: droid-sans, serif;
+    font-weight: 400;
+    color: #7c7c83;
+    font-size: 12px;
+}
+
+.activities-list {
+    width: 220px;
+    margin-left: 20px;
+}
+
+#activities div p
+{
+    margin: 10px 3px 0 14px;
+}
+
+/* section activités -> partie golf*/
+.golf-container{
+    width: 220px;
+    height: 345px;
+    border: 1px solid #f0f0f0;
+}
+
+.golf-img {
+    text-align: center;
+}
+
+/* section activités -> partie comments*/
+.comments-container {
+    width: 441px;
+}
+
+/* section activités -> partie galerie*/
+.accro-galerie {
+    width: 431px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.img-galerie {
+    margin: 35px 5px 5px 5px;
+    border: 1px solid #f0f0f0;
+    padding: 7px;
+    box-shadow: 5px 5px 3px #ddd;
+}
+
+/* Sections infos */
+#section-infos {
+    height: 220px;
+    padding: 10px 0;
+    border: 1px solid #f0f0f0;
+}
+
+.infos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: url('assets/misc/grille.png');
+}
+
+.responsive-area {
+    display: flex;
+    align-items: center;
+}
+
+#section-infos h2 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: #7c7c83;
+    font-size: 15px;
+}
+#section-infos img {
+    height: 25px;
+}
+#section-infos p {
+    display: flex;
+    font-family: droid-sans, serif;
+    color: #7c7c83;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+.infos-container div:first-child{
+    margin-left: 4%;
+}
+
+.infos-container div {
+    height: 180px;
+    margin: 20px;
+}
+
+.infos-date {
+    font-family: droid-serif, serif;
+    font-style: italic;
+}
+
+.infos-title{
+    font-weight: 600;
+}
+
+
+/* FOOTER */
+
+footer {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.text-area {
+    font-family: droid-sans, serif;
+    color: #7c7c83;
+    font-size: 10px;
+}
+
+footer div {
+    margin: 0 9% 0 12%;
+}
+
+/*structure des listes version mobile/réduite*/
+#mobile-menu {
+    opacity: 0;
+}
+#mobile-menu .side-menu{
+    width: 240px;
+    height: 100%;
+    padding: 50px 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(0deg,#48484b,#464646);
+    display: flex;
+    flex-flow: column nowrap;
+    box-shadow: 5px 0 10px rgba(17, 26, 41, 0.6);
+    z-index: 10;
+    transition: 0.7s;
+    transform: translateX(-100%);
+}
+.side-menu label{
+    position: fixed;
+    width: 40px;
+    height: 80px;
+    background-color: #e77927;
+    color: #fff;
+    top: 0;
+    bottom: 0;
+    margin: auto auto auto 240px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 0 10px 10px 0;
+}
+#side-menu-check{
+    position: fixed;
+    opacity: 0;
+}
+#side-menu-check:checked + .side-menu{
+    transform: translateX(0);
+}
+/* sens flèche */
+#side-menu-check:checked + .side-menu label .fas{
+    transform:scaleX(-1);
+}
+.list-group.mobile {
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+}
+.list-group.mobile .list h2 {
+    color: #fff;
+    font-size: 16px;
+}
+.list-group.mobile .list li {
+    color: #fff;
+    font-size: 13px;
+}
+.list-group.mobile .divider {
+    width: 130px;
+}
+.fa-chevron-right {
+    font-size: 24px;
+}
+
+
+
+
+/* PARTIE RESPONSIVE */
+@media screen and (max-width: 1700px){
+    iframe.video {
+        width: 43%;
+        height: 89%;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    #logo{
+        margin-left: 200px;
+    }
+    iframe.video {
+        width: 48%;
+        height: 86%;
+    }
+}
+
+@media screen and (max-width: 1280px){
+    iframe.video {
+        width: 57%;
+    }
+}
+
+@media screen and (max-width: 1120px){
+    #logo{
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    #logo {
+        margin-left: 15px;
+        width: 144px;
+    }
+    .list-group {
+        left: 20%;
+    }
+
+    iframe.video {
+        width: 68%;
+    }
+
+    #activities {
+        flex-direction: column;
+        height: 650px;
+    }
+
+    .golf-container {
+        position: relative;
+        left: -25%;
+        top: 26%;
+    }
+
+    .activities-content {
+        position: relative;
+        margin-left: 32%;
+        top: -23%;
+    }
+
+    .activities-content.comments {
+        display: flex;
+        position: relative;
+        margin-left: 32%;
+        top: -27%;
+    }
+
+    .activities-list {
+        margin-left: 9px;
+    }
+
+    .accro-galerie {
+        position: unset;
+        flex-wrap: wrap-reverse;
+    }
+}
+
+@media screen and (max-width: 800px){
+    iframe.video {
+        width: 80%;
+        height: 77%;
+    }
+    .golf-container {
+        left: -30%;
+    }
+
+    h2.slogan-title {
+        font-size: 16px;
+    }
+    .infos-container div {
+        height: 198px;
+        margin: 11px;
+    }
+}
+
+@media screen and (max-width: 748px){
+    #headerBg {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 120px;
+        padding-bottom: 20px;
+    }
+    .list-group {
+        position: unset;
+    }
+    iframe.video {
+        width: 79%;
+        height: 71%;
+    }
+
+    h2.slogan-title {
+        font-size: 15px;
+    }
+
+    .golf-container {
+        left: -33%;
+    }
+
+    footer div {
+        margin: 0 8% 0 8%;
+    }
+
+    .list-group.default {
+        display: none;
+    }
+    #mobile-menu {
+        opacity: 1;
+    }
+    .side-menu {
+        position: fixed;
+        left: 0;
+        top: 0;
+    }
+
+}
+
+@media screen and (max-width: 675px){
+    #activities {
+        height: 1200px;
+    }
+    .golf-container, .activities-content, .activities-content.comments {
+        position: unset;
+        margin: 0;
+    }
+   .responsive-galerie {
+        display: flex;
+        justify-content: center;
+    }
+    .accro-galerie {
+        height: unset;
+        width: 40%;
+    }
+    .row-galerie {
+        display: flex;
+        flex-direction: column;
+    }
+
+     /*Section infos responsive */
+    #headerBg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #logo {
+        margin: 0;
+        position: absolute;
+        top: 4%;
+    }
+
+    h2.slogan-title {
+        margin: 0 25px;
+    }
+    #section-infos {
+        height: 415px;
+    }
+    .responsive-area {
+        display: unset;
+    }
+    .infos-container {
+        justify-content: space-evenly;
+        align-items: baseline;
+    }
+    /*footer*/
+    .text-area {
+        padding: 20px;
+        margin-top: 10px;
+    }
+    footer {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    #activities {
+        height: 1400px;
+    }
+    .comments-container {
+        width: 70%;
+        margin-left: 20px;
+    }
+    .activities-content.comments {
+        display: block;
+        margin-right: 110px;
+
+    }
+    #section-infos {
+        height: 505px;
+    }
+    iframe.video {
+        height: 48%;
+    }
+    .infos-container div {
+        margin-bottom: 50px;
+    }
+}
